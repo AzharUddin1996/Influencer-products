@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    border: 1px solid blue;
+    /* padding: 200px; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+
+}
+.nav h2{
+    width: 40%;
+}
+.nav ul{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.product-container{
+    display: flex;
+    margin: 0px 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-info p{
+    margin: 10px 0px;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    color: white;
+    border-radius: 20px;
+}
+.images{
+    width: 200px;
+    height: 200px;
+}
+.product .images{
+    background-image: url(/images/Circle\ design.svg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.bying-src {
+    display: flex;
+}
+.bying-src div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.bying-src div li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.bying-src li  img{
+    width: 50px;
+    height: 20px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width:576px){
+    .nav{
+   display: block;
+    }
+    .nav h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .nav ul{
+        display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-around;
+    }
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin: 0px 35px;
+    }
+    .bying-src div{
+        width: 100%;
+    }
+    .bying-src{
+       display: block;
+
+    }
+}
