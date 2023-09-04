@@ -120,6 +120,25 @@
     font-size: 16px;
 }
 
+/* -------footer start----------*/
+.footer{
+    background-color:rgb(12, 4, 12);
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.footer ul li{
+    list-style: none;
+}
+/* -------footer end----------*/
+
 
 /* responsive */
 /* for medium devices start */
@@ -201,7 +220,8 @@
         margin: 0 auto;
     }
     .featured-products p{
-        margin: 10px 0px;
+        margin: 10px 10px;
+        padding-right:10px ;
     }
 }
 /* for mobile end */
