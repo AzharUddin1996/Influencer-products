@@ -105,6 +105,20 @@
     height: 150px;
 }
 /* ----------main part end------------- */
+.featured-products{
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:100px;
+    margin: 0 auto;
+}
+.featured-products img{
+    width: 300px;
+}
+.content p{
+    width: 100%;
+    font-size: 16px;
+}
 
 
 /* responsive */
@@ -130,6 +144,7 @@
             display: grid;
             grid-template-columns: repeat(2,1fr);
          }
+         
 }
 /* for medium devices end*/
 
@@ -172,6 +187,19 @@
     .main-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        width: 100%;
      }
+     .card img{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+     }
+     .featured-products{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:100px;
+        margin: 0 auto;
+    }
 }
 /* for mobile end */
