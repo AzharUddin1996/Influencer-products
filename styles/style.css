@@ -80,6 +80,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 0px 100px;
+    margin: 0 auto;
 }
 .popular-title{
     text-align: center;
