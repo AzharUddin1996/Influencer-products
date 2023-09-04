@@ -191,15 +191,17 @@
      }
      .card img{
         width: 100%;
-        padding: 10px;
-        margin: 10px;
      }
      .featured-products{
         width: 100%;
         display: grid;
+        gap: 20px;
         grid-template-columns: repeat(1,1fr);
         padding:100px;
         margin: 0 auto;
+    }
+    .featured-products p{
+        margin: 10px 0px;
     }
 }
 /* for mobile end */
